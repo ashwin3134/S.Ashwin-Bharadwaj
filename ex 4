@@ -1,0 +1,8 @@
+def addbinary(a,b):
+    a=int(a,2)
+    b=int(b,2)
+    c= a+b
+    return bin(c)[2:]
+a="101101"
+b="1100"
+print(addbinary(a,b))
